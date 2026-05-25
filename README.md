@@ -8,6 +8,9 @@ Projeto simples desenvolvido em Java utilizando JavaFX + FXML para praticar:
 - Estilização com CSS
 - Lógica simples de autenticação
 - Organização de projeto JavaFX com Maven
+- Tratamento de erros
+- Alertas com Alert
+- Validação de campos vazios
 
 ---
 
