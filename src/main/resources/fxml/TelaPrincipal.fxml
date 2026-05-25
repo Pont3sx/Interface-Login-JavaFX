@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.controller.PrincipalController"
+      stylesheets="@/css/style.css"
+      alignment="CENTER"
+      spacing="10">
+
+    <VBox spacing="25" alignment="CENTER" styleClass="card-branco">
+        <Label text="Sistema Principal" styleClass="titulo-sistema"/>
+        <Label text="Parabéns! Você conseguiu fazer o login com sucesso." styleClass="mensagem-inicial"/>
+
+        <Button fx:id="sairButton" text="Sair do Sistema" styleClass="logout-button" onAction="#efutuarLogout" />
+    </VBox>
+
+</VBox>

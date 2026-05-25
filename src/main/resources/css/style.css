@@ -1,0 +1,78 @@
+.root {
+    -fx-background-color: #F0F4F8; /* Cor de fundo cinza-clara */
+}
+
+.card-branco {
+    -fx-background-color: #ffffff;
+    -fx-padding: 60 80 60 80;
+    -fx-background-radius: 24;
+    -fx-border-radius: 24;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.05), 15, 0, 0, 5);
+    -fx-pref-width: 937;
+    -fx-max-width: 937;
+    -fx-pref-height: 610;
+    -fx-max-height: 610;
+}
+
+.titulo-formulario {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1A365D;
+}
+
+.campo-texto-email, .campo-texto-senha {
+    -fx-background-color: #e8edf5;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 12 16 12 16;
+    -fx-text-fill: #334155;
+    -fx-font-size: 14;
+    -fx-pref-width: 750;
+    -fx-max-width: 750;
+}
+
+.campo-texto-email:focus, .campo-texto-senha:focus {
+    -fx-background-color: #e8edf5;
+    -fx-border-color: #3b82f6;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 8;
+}
+
+.login-button {
+    -fx-background-color: #007bff; /* Azul padrão do seu botão no Figma */
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-pref-width: 110;
+    -fx-max-width: 110;
+    -fx-cursor: hand;
+}
+
+.login-button:hover, .logout-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.titulo-sistema {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1A365D;
+}
+
+.mensagem-inicial {
+    -fx-font-size: 18;
+    -fx-text-fill: #12b4df;
+}
+
+.logout-button {
+    -fx-background-color: #007bff; /* Azul padrão do seu botão no Figma */
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-pref-width: 150;
+    -fx-max-width: 150;
+    -fx-cursor: hand;
+}

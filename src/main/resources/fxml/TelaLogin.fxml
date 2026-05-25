@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.controller.LoginController"
+      stylesheets="@/css/style.css"
+      alignment="CENTER"
+      spacing="10">
+
+    <VBox spacing="25" alignment="CENTER" styleClass="card-branco" >
+        <Label text="Formulário de Login" styleClass="titulo-formulario"/>
+
+        <TextField fx:id="emailField" promptText="Email" styleClass="campo-texto-email"/>
+        <PasswordField fx:id="senhaField" promptText="Senha" styleClass="campo-texto-senha"/>
+
+        <Button text="Entrar" styleClass="login-button" onAction="#efetuarLogin"/>
+    </VBox>
+</VBox>
+
